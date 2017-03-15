@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AABB Catraca</string>
+    <string name="title_home">Home</string>
+    <string name="title_matriculacpf">Matrícula/CPF</string>
+    <string name="title_barras">Cód.Barras</string>
+</resources>

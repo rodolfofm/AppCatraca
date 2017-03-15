@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Consulta por Mátricula ou CPF"
+        android:textSize="18sp" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/etMatriculaCpf"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnConsulta"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lvSocios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+
+</LinearLayout>
