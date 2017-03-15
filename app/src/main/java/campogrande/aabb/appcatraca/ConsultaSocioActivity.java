@@ -24,6 +24,8 @@ public class ConsultaSocioActivity extends Activity {
         }
 
         ListView lv = (ListView) findViewById(R.id.lvSocios);
-        lv.setAdapter(new ConsultaSocioAdapter(this, socios));
+        //lv.setAdapter(new ConsultaSocioAdapter(this, socios));
+        lv.setAdapter(new ConsultaSocioArrayAdapter(this, R.layout.activity_consulta_socios_partial, socios));
+
     }
 }

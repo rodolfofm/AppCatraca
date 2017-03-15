@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="368dp"
     android:layout_height="495dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:layout_editor_absoluteX="5dp"
-    tools:layout_editor_absoluteY="-95dp"
-    tools:context="campogrande.aabb.appcatraca.MainActivity">
+    tools:context="campogrande.aabb.appcatraca.MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp"
+    android:rowCount="3"
+    android:columnCount="1"
+    >
+
     <Button
         android:id="@+id/navigation_matriculacpf"
-        android:text="@string/title_matriculacpf"
-        android:onClick="NavigateMatriculaCpf">
-    </Button>
+        android:onClick="NavigateMatriculaCpf"
+        android:text="@string/title_matriculacpf"></Button>
+
     <Button
         android:id="@+id/navigation_barras"
-        android:text="@string/title_barras">
-    </Button>
+        android:text="@string/title_barras"></Button>
 </GridLayout>
 
